@@ -28,12 +28,28 @@
   justify-content: space-between;
 }
 
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .aboutImage {
   width: 30%;
   border-radius: 10px;
   margin-right: 20px;
+  opacity: 0;
+  transition: opacity 0.8s ease-out; 
 }
 
+.aboutImage.visible {
+  animation: zoomIn 0.8s ease-out forwards; 
+}
 .aboutItems {
   color: var(--color-text);
   display: flex;

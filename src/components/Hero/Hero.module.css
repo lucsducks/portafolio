@@ -54,19 +54,22 @@
 }
 
 
-.heroImg {
-  width: 50%;
-  z-index: 1;
-  animation: floating 3s ease-in-out infinite;
-}
 
-@keyframes floating {
-  0%, 100% {
-    transform: translateY(0);
+@keyframes pulse {
+  0% {
+    transform: scale(1);
   }
   50% {
-    transform: translateY(10px);
+    transform: scale(1.05);
   }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heroImg {
+  z-index: 1;
+  animation: floating 3s ease-in-out infinite, pulse 5s ease-in-out infinite;
 }
 
 .topBlur,
@@ -98,7 +101,12 @@
   .container {
     flex-direction: column-reverse;
   }
-
+  .heroImg{ 
+    width: 100%;
+  }
+  .description{
+    font-size: 22px;
+  }
   .content {
     align-items: center;
   }

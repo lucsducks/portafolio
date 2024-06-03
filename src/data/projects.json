@@ -1,0 +1,34 @@
+[
+  {
+    "title": "IziFile",
+    "imageSrc": "projects/izifile.png",
+    "description": "This is a project for file transfer via SFTP and SSH.",
+    "skills": ["NodeJS","Dart", "MongoDB", "Flutter"],
+    "demo": "https://github.com/lucsducks/izifile-frontend",
+    "source": "https://github.com/lucsducks/izifile-backend-publicm"
+  },
+  {
+    "title": "Mishimisi",
+    "imageSrc": "projects/image.png",
+    "description": "Teaching Quechua using Gemini artificial intelligence.",
+    "skills": ["Flutter","Dart", "NestJS", "PostgreSQL"],
+    "demo": "https://mishisimi.netlify.app/",
+    "source": "https://mishisimi.netlify.app/"
+  },
+  {
+    "title": "Cattle Management",
+    "imageSrc": "projects/sumaq.png",
+    "description": "Project for cattle management in buying, selling, and personnel.",
+    "skills": ["HTML", "JavaScript", "PHP", "CSS"],
+    "demo": "https://github.com/lucsducks/gestionganaderia",
+    "source": "https://github.com/lucsducks/gestionganaderia"
+  },
+  {
+    "title": "Mindwell",
+    "imageSrc": "projects/mindwell.png",
+    "description": "Web and app to determine your personality type with the Eysenck test.",
+    "skills": ["Flutter","Dart", "NestJS", "PostgreSQL"],
+    "demo": "https://github.com/lucsducks/mindwellFronted",
+    "source": "https://github.com/lucsducks/mindwellBackend"
+  }
+]
